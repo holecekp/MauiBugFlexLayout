@@ -7,7 +7,10 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-	}
+
+        var texts = new string[] { "A", "B", "C", "D", "E", "F" };
+        BindableLayout.SetItemsSource(flexLayout1, texts);
+    }
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
