@@ -4,7 +4,6 @@
              x:Class="MauiBugFlexLayout.MainPage">
 
     <ContentPage.Resources>
-
         <DataTemplate x:Key="flexTemplate" x:DataType="{x:Type x:String}">
             <Grid ColumnDefinitions="auto" RowDefinitions="auto" FlexLayout.Basis="33%">
   
@@ -15,7 +14,7 @@
         </DataTemplate>
     </ContentPage.Resources>
     
-    <ScrollView>
+    
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
@@ -54,6 +53,5 @@
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
-    </ScrollView>
 
 </ContentPage>
